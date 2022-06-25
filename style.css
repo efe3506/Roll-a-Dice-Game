@@ -22,6 +22,10 @@ body {
   justify-content: center;
 }
 
+.invisible{
+  display: none;
+}
+
 /* LAYOUT */
 main {
   position: relative;
@@ -171,4 +175,15 @@ main {
 
 .hidden{
   display: none;
+}
+
+/* responsive özellikler */
+
+@media screen and (max-width:600px) {
+  .invisible{
+    display: flex;
+  }
+  main{
+    display: none;
+  }
 }
